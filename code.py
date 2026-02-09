@@ -9,7 +9,7 @@ df = df.dropna(subset=['product_name', 'user_id', 'review_id'])
 # Top 10 most reviewed products
 most_sell = df['product_name'].value_counts().head(10)
 
-# plt.figure(figsize=(10, 8))
+plt.figure(figsize=(10, 8))
 
 colors = ['r','y','m','g','b','k','c','skyblue','orange','purple']
 
